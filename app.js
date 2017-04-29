@@ -6,7 +6,7 @@ var apiApp = apiai('d77d60abb4b84890aa418baeaa493af3');
 
 const Botly = require("botly");
 const botly = new Botly({
-    accessToken: "EAAK2hAmkY0UBACJV3pd6mifim8vj4NpKvbcGvYgVsdFW6GLCXqUXZA12ZCMrf9zzIaFBLEgm9GCuHSFKkRXvQQZAsZAsVVHuuB1kE6bLeyoRSQ1BoGJz6i3ugxLOBtDEnHepD7Io6ZCZCLIyO9RsNEOtx3Djm6JXZCh7OlQpoq57QZDZD", //page access token provided by facebook 
+    accessToken: "EAAK2hAmkY0UBAE5AqtACForYmdHqDlMHOasbasZBLBScQ7ZAZBw7RDfDVgpB0GGnhQwW0VAwmrFoBrnZCaypEZCRKDNKnwNkM92Obey42xIZBwGb4DiUODf16SwkihYdbVrK0GBZCDhUKTVYh7NrGkXtoE6PRwpnEqipQMZAtq1wZBwZDZD", //page access token provided by facebook 
     verifyToken: "sims", //needed when using express - the verification token you provided when defining the webhook in facebook 
     webHookPath: "/", //defaults to "/", 
     notificationType: Botly.CONST.REGULAR //already the default (optional), 
